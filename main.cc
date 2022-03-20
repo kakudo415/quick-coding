@@ -3,6 +3,7 @@
 #include <iomanip>
 #include <iostream>
 #include <map>
+#include <numeric>
 #include <queue>
 #include <set>
 #include <string>
@@ -13,8 +14,9 @@ using namespace std;
 using ll = long long;
 using ld = long double;
 
-#define FOR(i, b, e) for (int i = b; i < e; i++)
-#define rep(i, e) for (int i = 0; i < e; i++)
+#define range(i, b, e) for (ll i = (b); i < (e); i++)
+#define rep(i, e) for (ll i = 0; i < (e); i++)
+#define loop while (true)
 
 const ld pi = 3.141592653589793;
 
